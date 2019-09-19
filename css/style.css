@@ -2351,7 +2351,7 @@
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em;
+			padding: 2.5em 2em 1em 6em;
 			display: block;
 			position: relative;
 			text-align: left;
@@ -2425,7 +2425,7 @@
 
 			@media screen and (max-width: 980px) {
 				.features li {
-					padding: 3em 2em 1em 2em;
+					padding: 1.5em 2em 0.5em 2em;
 					text-align: center;
 				}
 
@@ -2755,8 +2755,8 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #f07a88;
-			color: #d3d4e4;
+			background-color: #d9c700;
+			color: #ffffff;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -2788,7 +2788,7 @@
 			}
 
 			.wrapper.style3 header.major p {
-				color: #d3d4e4;
+				color: #ffffff;
 			}
 
 			.wrapper.style3 label {
@@ -2809,7 +2809,7 @@
 
 			.wrapper.style3 input[type="checkbox"] + label,
 			.wrapper.style3 input[type="radio"] + label {
-				color: #d3d4e4;
+				color: #ffffff;
 			}
 
 				.wrapper.style3 input[type="checkbox"] + label:before,
@@ -3561,10 +3561,7 @@
 
 	#main > header {
 		padding: 12em 0 10em 0;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
+		background-color: #f07a88;
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3590,19 +3587,19 @@
 
 		@media screen and (max-width: 1680px) {
 			#main > header {
-				padding: 10em 0 8em 0;
+				padding: 6em 0 6em 0;
 			}
 		}
 
 		@media screen and (max-width: 1280px) {
 			#main > header {
-				padding: 8em 3em 6em 3em;
+				padding: 6em 3em 6em 3em;
 			}
 		}
 
 		@media screen and (max-width: 980px) {
 			#main > header {
-				padding: 10em 3em 8em 3em;
+				padding: 6em 3em 6em 3em;
 			}
 		}
 
@@ -3697,10 +3694,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/adjusted_logo.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/adjusted_logo.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/adjusted_logo.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/adjusted_logo.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3718,10 +3715,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/adjusted_logo.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/adjusted_logo.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/adjusted_logo.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/adjusted_logo.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3729,4 +3726,8 @@
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	#solidHeader {
+		background-color: #f07a88;
 	}
